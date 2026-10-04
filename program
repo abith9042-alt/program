@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+float itemcost,deliverycharge,total;
+print("Enter itemcost:);
+scanf("%f",&itemcost);
+printf("Enter deliverycharge:);
+scanf("%f",&deliverycharge);
+total=itemcost+deliverycharge;
+printf("Total amount payable=%.2f,total);
+return 0
+}
